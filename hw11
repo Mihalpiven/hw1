@@ -8,7 +8,7 @@ public class Main {
 
     }
     public static void main(String[] args) throws IOException {
-        System.out.println(
+        System.out.println(Welcome to the student Grade Management)
         String path = args[0];
         scanner = new Scanner(new File(path));
         int numberOfTests = scanner.nextInt();
