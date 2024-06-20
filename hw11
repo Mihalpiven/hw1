@@ -4,8 +4,11 @@ import java.util.Scanner;
 
 public class Main {
     public static Scanner scanner; // Note: Do not change this line.
-    public static void manageGrades() {}
+    public static void manageGrades() {
+
+    }
     public static void main(String[] args) throws IOException {
+        System.out.println(
         String path = args[0];
         scanner = new Scanner(new File(path));
         int numberOfTests = scanner.nextInt();
